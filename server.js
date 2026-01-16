@@ -14,7 +14,12 @@ subscriptionReminderJob();
 
 const app = express();
 
-app.use(cors());
+app.use(
+  cors({
+    origin: "https://subs-front.vercel.app", // your frontend URL
+    credentials: true, // if you need cookies/auth headers
+  })
+);
 app.use(express.json());
 
 app.use("/api/auth", authRoutes);
