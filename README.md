@@ -6,9 +6,9 @@ Built using **Node.js, Express, MongoDB**, and **JWT authentication**.
 
 ---
 
-[Frontend]('https://github.com/Proo2005/subs_front')
-[Vercel]('https://subs-front.vercel.app/')
-[Render]('https://subs-back.onrender.com')
+[Frontend](https://github.com/Proo2005/subs_front)  
+[Vercel](https://subs-front.vercel.app/)  
+[Render](https://subs-back.onrender.com)
 
 ## 🚀 Features
 
